@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 ruby "3.1.0"
-
+gem "bundler", "~> 2.4"
 gem "jekyll", "~> 3.10" # Jekyll core
 gem "jekyll-scholar"    # For bibliography tag
 gem "jekyll-terser", git: "https://github.com/RobertoJBeltran/jekyll-terser.git"
