@@ -1,35 +1,33 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
-title: "Raphaël Urfin"       # Le titre du site (ton nom)
-first_name: "Raphaël"
-middle_name: ""               # Laisse vide si pas de deuxième prénom
+title: "Raphael Urfin"
+first_name: "Raphael"
+middle_name: ""
 last_name: "Urfin"
-contact_note: "Fell free to reach me by email"
+contact_note: "Feel free to reach me by email"
 description: >
   PhD Student at École Normale Supérieure-PSL under the supervision of Giulio Biroli
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Machine Learning, Statiscal Physics
+keywords: "Machine Learning, Statistical Physics"
 lang: en
 icon: 📚
 
-url: https://raphael-urfin.github.io # the base hostname & protocol for your site
+url: "https://raphael-urfin.github.io"
 baseurl: ""
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+last_updated: false
+impressum_path: ""
+back_to_top: true
 
-linkedin: "www.linkedin.com/in/raphaël-urfin-812b53265"
+linkedin: "https://www.linkedin.com/in/raphael-urfin-812b53265"
 google_scholar: "https://scholar.google.com/citations?user=j7IYAOIAAAAJ&hl=fr"
-# -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
+
 enable_darkmode: true
-enable_math: true        # si tu veux afficher des formules LaTeX
+enable_math: true
 enable_navbar_social: true
+
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
