@@ -57,14 +57,20 @@ layout: default
       {% endif %}
     </p>
   </header>
-
+  
   <article class="post-content">
+  
+
     {% if page.toc and page.toc.beginning %}
+      {%- comment -%}
       <div id="table-of-contents">
         {% toc %}
       </div>
       <hr>
+      {%- endcomment -%}
     {% endif %}
+
+
     <div id="markdown-content">
       {{ content }}
     </div>
