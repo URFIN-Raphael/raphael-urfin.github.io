@@ -1,9 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem "jekyll" # you’ll need this if you remove github-pages
+gem "jekyll-scholar"
+gem "jekyll-terser"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
+    gem "jekyll-seo-tag"
+    gem "jekyll-feed"
+    gem "jekyll-sitemap"
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
