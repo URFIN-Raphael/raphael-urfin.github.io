@@ -24,9 +24,6 @@ back_to_top: true
 linkedin: "https://www.linkedin.com/in/raphael-urfin-812b53265"
 google_scholar: "https://scholar.google.com/citations?user=j7IYAOIAAAAJ&hl=fr"
 
-enable_darkmode: true
-enable_navbar_social: true
-
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
